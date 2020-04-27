@@ -30,7 +30,7 @@ import {
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, AlertModule.forRoot(), CarouselModule.forRoot() ] ,
-  declarations: [ AppComponent, HelloComponent, ],
+  declarations: [ AppComponent, HelloComponent, MdlCarouseBasicComponent  ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
