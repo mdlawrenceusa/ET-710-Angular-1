@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
+import { MdlCarouseBasicComponent } from './basic-orbit.component.ts' ;
 
 import {
   AccordionModule,
@@ -28,7 +29,7 @@ import {
 
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule, AlertModule.forRoot() ] ,
+  imports:      [ BrowserModule, FormsModule, AlertModule.forRoot(), CarouselModule.forRoot() ] ,
   declarations: [ AppComponent, HelloComponent ],
   bootstrap:    [ AppComponent ]
 })
